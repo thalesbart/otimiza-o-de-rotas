@@ -16,6 +16,26 @@ import json
 import warnings
 import time
 
+'''
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
+
+# Set the path to the file you'd like to load
+
+file_path = ""
+
+# Load the latest version
+df = kagglehub.load_dataset(
+  KaggleDatasetAdapter.PANDAS,
+  "new-york-city/nyc-fire-incident-dispatch-data",
+  file_path,
+  # Provide any additional arguments like 
+  # sql_query or pandas_kwargs. See the 
+  # documenation for more information:
+  # https://github.com/Kaggle/kagglehub/blob/main/README.md#kaggledatasetadapterpandas
+)
+'''
+
 warnings.filterwarnings("ignore")
 
 # ==========================================================
@@ -29,7 +49,7 @@ ox.settings.log_console = False
 # CAMINHOS
 # ==========================================================
 
-PATH_SHAPE = "-"
+PATH_SHAPE = "caminho df carregado do kaggle"
 
 PATH_BASE = "-"
 
